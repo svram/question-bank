@@ -5,7 +5,7 @@ import os
 import random
 
 #UNCOMMENT IN PRODUCTION SERVER
-#from flask_heroku import Heroku
+from flask_heroku import Heroku
 
 
 # create the application object
@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.config.from_object('_config')
 
 #UNCOMMENT IN PRODUCTION SERVER
-#heroku = Heroku(app)
+heroku = Heroku(app)
 
 db = SQLAlchemy(app)
 
