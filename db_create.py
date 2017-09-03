@@ -17,7 +17,7 @@ db.session.add(u3)'''
 
 
 
-with sqlite3.connect("cards.db") as conn:
+'''with sqlite3.connect("cards.db") as conn:
 	curr = conn.cursor()
 	curr.execute("select * from cards")
 	result = curr.fetchall()
@@ -25,9 +25,9 @@ with sqlite3.connect("cards.db") as conn:
 		row = Card(r[0],r[1],r[2],r[3],r[4])
 		db.session.add(row)
 		db.session.commit()
-		
 
-print "migration complete"
+
+print "migration complete"'''
 #db.session.commit()
 	
 

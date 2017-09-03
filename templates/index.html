@@ -10,28 +10,23 @@
 </head>
 <body>
 	<div class="container">
-	<blockquote class="quote-box">
-		<p style="display: inline;" class="quote-text"><p id="question"></p></p>
-		<hr>
-		<div class="blog-post-actions">
-			
-			<button id="showButton" class="blog-post-bottom pull-left uibuttons" style="background:black;">
-				<p class="buttontext">Show Answer</p>
-			</button>
-			<button id="random" class="blog-post-bottom pull-right uibuttons" style="background:black;">
-				<p class="buttontext">Random</p>
-			</button>
-			
-		</div>
-	
-	</blockquote>
-	
-	<div id="sectionwell" class="well answerwell">
-		<p id="answer"></p>
-	</div>
+		<blockquote class="quote-box">
+			<p style="display: inline;" class="quote-text"><p id="question"></p></p>
+			<hr>
+			<div class="blog-post-actions">
+				<button id="showButton" class="blog-post-bottom pull-left uibuttons" style="background:black;">
+					<p class="buttontext">Show Answer</p>
+				</button>
+				<button id="random" class="blog-post-bottom pull-right uibuttons" style="background:black;">
+					<p class="buttontext">Random</p>
+				</button>
+			</div>
 		
-	
+		</blockquote>
+		<div id="sectionwell" class="well answerwell">
+			<p id="answer"></p>
+		</div>
 	</div>
-<script src="{{ url_for('static',filename='js/handler.js') }}"></script>
+	<script src="{{ url_for('static',filename='js/handler.js') }}"></script>
 </body>
 </html>
