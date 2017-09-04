@@ -37,3 +37,14 @@ blockquote{
 .uibuttons{
     border: none;
 }
+
+@media screen and (max-width: 699px) {
+
+    .quote-box{
+        width: auto;
+    }
+
+    #sectionwell{
+        width: auto;
+    }
+}
