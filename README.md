@@ -4,11 +4,11 @@ https://cs-questions.herokuapp.com
 
 Stack:
 
-*Python Flask
-*Jquery
-*Bootstrap
-*PostgreSQL
-*Heroku
+* Python Flask
+* PostgreSQL
+* Jquery
+* Bootstrap
+* Heroku 
 
 
 
